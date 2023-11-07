@@ -35,10 +35,13 @@ const Hero = () => {
       </div>
       {/* imagen de la chicaa */}
       <div className=" md:col-span-3 flex items-center justify-center relative">
+        <div>
+
         <img
           src="hero.png"
-          className="w-[450px] h-[450px] object-cover -mt-28"
+          className="w-[250px] h-[250px] md:w-[450px] md:h-[450px] object-cover xl:-mt-28"
         />
+        </div>
         <RiCheckboxBlankCircleFill className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-[380px] text-secondary p-[] bg-primary rounded-full -z-10" />
       </div>
     </section>
