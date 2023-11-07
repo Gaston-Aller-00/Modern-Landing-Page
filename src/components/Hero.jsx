@@ -9,8 +9,9 @@ const Hero = () => {
         <div>
           <h1 className="text-7xl font-bold">
             Web Desing impactful Digital{" "}
-            <span className="text-primary p-2 border-8 border-primary">
+            <span className="text-primary p-2 border-8 border-primary relative ">
               Products
+              <RiCheckboxBlankCircleFill className="text-4xl absolute left-0 top-0"/>
             </span>{" "}
           </h1>
           <p>Description</p>
