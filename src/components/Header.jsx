@@ -4,6 +4,7 @@ import { RiCheckboxBlankCircleFill,RiMenu3Fill,RiCloseLine } from "react-icons/r
 const Header = () => {
 
   const [showMenu,setShowMenu] = useState(false)
+  const [dos, setDos] = useState('2')
   return (
     // Power, home,about,services,profucts,etc high page part
     <header className="flex  items-center justify-between xl:justify-start w-full p-4 h-[10vh] z-50">
