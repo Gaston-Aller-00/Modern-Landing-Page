@@ -21,7 +21,7 @@ const Services = () => {
             />
             <button
               type="submit"
-              className="absolute font-semibold py-2 px-6 bg-primary text-white rounded-xl top-1/2 -translate-y-1/2 right-2"
+              className="absolute font-semibold py-2 px-6 bg-primary text-white rounded-xl top-1/2 -translate-y-1/2 right-2 transition duration-300 hover:shadow-violet-hover hover:scale-105"
             >
               Suscribe
             </button>
@@ -39,21 +39,21 @@ const Services = () => {
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <RiMacFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <RiMacFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl transition duration-300 hover:shadow-violet-hover hover:scale-105" />
           <h3 className="text-[20px] font-bold">Logo branding </h3>
           <p className="text-gray-500">
             Sometime sfeatures require a short description{" "}
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <RiMacFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <RiMacFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl transition duration-300 hover:shadow-violet-hover hover:scale-105" />
           <h3 className="text-[20px] font-bold">App desing </h3>
           <p className="text-gray-500">
             Sometime sfeatures require a short description{" "}
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl transition duration-300 hover:shadow-violet-hover hover:scale-105" />
           <h3 className="text-[20px] font-bold">Website desing</h3>
           <p className="text-gray-500">
             Sometime sfeatures require a short description{" "}
