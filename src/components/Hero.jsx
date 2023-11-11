@@ -6,6 +6,13 @@ import {
 } from "react-icons/ri";
 
 const Hero = () => {
+  // funcion para desplazar hacia el footer smoth
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="min-h-[90vh] grid grid-cols-1 xl:grid-cols-8">
       {/* informacion */}
@@ -24,12 +31,15 @@ const Hero = () => {
           </h1>
           <p className="text-gray-500 text-xl leading-[2.5rem]">
             Help find solutions with intitutive and in accordance with client
-            bussines goals.We provide a high-quality services{" "}
+            bussines goals.We provide a high-quality services.{" "}
           </p>
           <div className="flex item-center gap-4">
-          <button className="bg-primary text-white py-2 px-8 rounded-xl text-xl transition duration-300 hover:shadow-violet">
-    Contact us
-</button>
+            <button
+              onClick={scrollToContact}
+              className="bg-primary text-white py-2 px-8 rounded-xl text-xl transition duration-300 hover:shadow-violet"
+            >
+              Contact us
+            </button>
             <button className="flex items-center justify-start text-left gap-4 py-2 px-8 rounded-xl text-xl overflow-hidden transition duration-300 hover:shadow-brillante">
               <RiPlayFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl transition duration-300 hover:shadow-violet-hover hover:scale-105" />
               Watch our <br /> introduction video
