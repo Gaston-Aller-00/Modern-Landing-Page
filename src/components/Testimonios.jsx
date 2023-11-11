@@ -29,7 +29,7 @@ import React from 'react'
       <p className="text-gray-500">
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
         quibusdam ducimus libero ad tempora doloribus expedita laborum
-        saepe voluptas perferendis delectus assumenda rerum, culpa aperiam
+        saepe voluptas perferendis delectus assumenda rerum, 
         dolorum, obcaecati corrupti aspernatur a..."
       </p>
       <div className="flex items-center gap-4">
