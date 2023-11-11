@@ -22,27 +22,34 @@ const Reviews = () => {
           <RiDoubleQuotesR />
         </span>
       </div>
-      <div className="flex items-center justify-center">
+      <div className="">
+        <div className="flex items-center justify-center gap-12">
         <img
           src="https://img.freepik.com/foto-gratis/empresaria-confiada-sonriente-que-presenta-brazos-cruzados_1262-20950.jpg"
-          className="w-14 h-14 object-cover rounded-full ring-2 ring-gray-300"
+          className="w-14 h-14 object-cover rounded-full "
         />
         <img
-          src="https://img.freepik.com/foto-gratis/empresaria-confiada-sonriente-que-presenta-brazos-cruzados_1262-20950.jpg"
-          className="w-14 h-14 object-cover rounded-full ring-2 ring-gray-300"
+          src="https://img.freepik.com/foto-gratis/hombre-barbudo-feliz-sorprendido-camisa-apuntando-lejos_171337-5021.jpg"
+          className="w-16 h-16 object-cover rounded-full "
         />
         <img
-          src="https://img.freepik.com/foto-gratis/empresaria-confiada-sonriente-que-presenta-brazos-cruzados_1262-20950.jpg"
-          className="w-14 h-14 object-cover rounded-full ring-2 ring-gray-300"
+          src="https://img.freepik.com/foto-gratis/hombre-negocios-dueno-empresa-oficina_1303-15851.jpg"
+          className="w-20 h-20 object-cover rounded-full ring-4 ring-primary"
         />
         <img
-          src="https://img.freepik.com/foto-gratis/empresaria-confiada-sonriente-que-presenta-brazos-cruzados_1262-20950.jpg"
-          className="w-14 h-14 object-cover rounded-full ring-2 ring-gray-300"
+          src="https://img.freepik.com/foto-gratis/retrato-hombre-afroamericano-inteligente-profesional-pie-manos-cruzadas-sobre-pecho-pose-confianza_176420-33861.jpg"
+          className="w-16 h-16 object-cover rounded-full "
         />
         <img
-          src="https://img.freepik.com/foto-gratis/empresaria-confiada-sonriente-que-presenta-brazos-cruzados_1262-20950.jpg"
-          className="w-14 h-14 object-cover rounded-full ring-2 ring-gray-300"
+          src="https://img.freepik.com/foto-gratis/feliz-joven_1098-20869.jpg"
+          className="w-14 h-14 object-cover rounded-full "
         />
+        </div>
+        <div className="flex items-center justify-center p-8 text-gray-500 flex-col">
+          <h3 className="text-center text-[24px] font-bold text-black">Thomas Ralf  </h3>
+          <h5 className="text-center text-[24px] text-gray-500">  Founded of Varibo</h5>
+        </div>
+        
       </div>
     </div>
   );
