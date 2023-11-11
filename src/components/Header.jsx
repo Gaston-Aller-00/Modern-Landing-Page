@@ -46,7 +46,7 @@ const Header = () => {
       <button onClick={() => setShowMenu(!showMenu)} className="text-2xl p-2">
        
         {/* si esta true muestra las cruz y si esta false muestra el menu */}
-        {showMenu ? <RiCloseLine /> : <RiMenu3Fill />}
+        {/* {showMenu ? <RiCloseLine /> : <RiMenu3Fill />} */}
       </button>
     </header>
   );
