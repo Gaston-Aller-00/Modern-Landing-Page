@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+    .shadow-brillante:hover {
+      box-shadow: 0 8px 12px -4px rgba(112, 111, 229, 0.8), 0 4px 8px -4px rgba(112, 111, 229, 0.1);
+    }
+  }
+
+  @layer utilities {
+    .shadow-violet {
+      box-shadow: 0 8px 12px -4px rgba(112, 111, 229, 0.8), 0 4px 8px -4px rgba(112, 111, 229, 0.1);
+    }
+  
+    .hover\:shadow-violet-hover:hover {
+        box-shadow: 0 10px 20px -6px rgba(112, 111, 229, 0.8), 0 6px 12px -6px rgba(112, 111, 229, 0.1);
+    }
+  }
