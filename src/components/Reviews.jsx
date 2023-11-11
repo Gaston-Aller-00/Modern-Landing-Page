@@ -4,7 +4,7 @@ import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 
 const Reviews = () => {
   return (
-    <div className="p-8 flex flex-col gap-8 bg-gray-100">
+    <div id="reviews" className="p-8 flex flex-col gap-8 bg-gray-100">
       <h1 className="text-[40px] text-center font-black">
         Lets hear what they says
       </h1>
@@ -13,10 +13,7 @@ const Reviews = () => {
           <RiDoubleQuotesL />
         </span>
         <p className="max-w-2xl text-center text-gray-600">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
-          odio corporis eligendi sed minus delectus qui velit totam odit earum!
-          Similique asperiores sit ipsa quasi deserunt voluptatem quas, non
-          laborum?
+        Absolutely thrilled with the digital marketing service! My brand's visibility skyrocketed, and the personalized approach made me feel valued. A game-changer for anyone serious about online success
         </p>
         <span className="text-5xl text-primary">
           <RiDoubleQuotesR />
