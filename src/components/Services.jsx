@@ -31,7 +31,8 @@ const Services = () => {
       {/* los servicios que brindan */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="flex flex-col gap-2">
-          <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+        <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl transition duration-300 hover:shadow-violet-hover hover:scale-105" />
+
           <h3 className="text-[20px] font-bold">UI/UX Desing</h3>
           <p className="text-gray-500">
             Sometime sfeatures require a short description{" "}
