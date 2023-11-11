@@ -2,9 +2,9 @@ import React from 'react'
 
  const Testimonios = () => {
   return (
-    <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-8 p-8">
+    <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-8 p-8 ">
     
-    <div className="flex flex-col gap-6 bg-gray-100 p-8 rounded-xl drop-shadow-xl">
+    <div className="flex flex-col gap-6 bg-gray-100 p-8 rounded-xl drop-shadow-xl transition duration-300 hover:shadow-brillante hover:scale-105">
       <p className="text-gray-500">
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
         quibusdam ducimus libero ad tempora doloribus expedita laborum
@@ -25,7 +25,7 @@ import React from 'react'
       </div>
     </div>
     
-    <div className="flex flex-col gap-6 bg-gray-100 p-8 rounded-xl drop-shadow-xl">
+    <div className="flex flex-col gap-6 bg-gray-100 p-8 rounded-xl drop-shadow-xl transition duration-300 hover:shadow-brillante hover:scale-105">
       <p className="text-gray-500">
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
         quibusdam ducimus libero ad tempora doloribus expedita laborum
@@ -48,7 +48,7 @@ import React from 'react'
       </div>
     </div>
     
-    <div className="flex flex-col gap-6 bg-gray-100 p-8 rounded-xl drop-shadow-xl">
+    <div className="flex flex-col gap-6 bg-gray-100 p-8 rounded-xl drop-shadow-xl transition duration-300 hover:shadow-brillante hover:scale-105">
       <p className="text-gray-500">
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
         quibusdam ducimus libero ad tempora doloribus expedita laborum
