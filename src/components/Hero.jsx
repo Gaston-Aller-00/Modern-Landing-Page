@@ -27,12 +27,12 @@ const Hero = () => {
             bussines goals.We provide a high-quality services{" "}
           </p>
           <div className="flex item-center gap-4">
-            <button className="bg-primary text-white py-2 px-8 rounded-xl text-xl">
-              Contact us
-            </button>
-            <button className="flex items-center justify-start text-left gap-4  py-2 px-8 rounded-xl text-xl">
-              <RiPlayFill className="bg-secondary text-primary p-4 box-content rounded-full" />{" "}
-              Watch our <br /> introducction video
+          <button className="bg-primary text-white py-2 px-8 rounded-xl text-xl transition duration-300 hover:shadow-violet">
+    Contact us
+</button>
+            <button className="flex items-center justify-start text-left gap-4 py-2 px-8 rounded-xl text-xl overflow-hidden transition duration-300 hover:shadow-brillante">
+              <RiPlayFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl transition duration-300 hover:shadow-violet-hover hover:scale-105" />
+              Watch our <br /> introduction video
             </button>
           </div>
         </div>
