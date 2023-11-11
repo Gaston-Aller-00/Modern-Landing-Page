@@ -6,10 +6,7 @@ import React from 'react'
     
     <div className="flex flex-col gap-6 bg-gray-100 p-8 rounded-xl drop-shadow-xl transition duration-300 hover:shadow-brillante hover:scale-105">
       <p className="text-gray-500">
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
-        quibusdam ducimus libero ad tempora doloribus expedita laborum
-        saepe voluptas perferendis delectus assumenda rerum, culpa aperiam
-        dolorum, obcaecati corrupti aspernatur a..."
+        "Incredible results from this marketing team! They not only boosted my business's online presence but also took the time to understand my unique needs. Highly recommend for a tailored, effective strategy."
       </p>
       <div className="flex items-center gap-4">
         <img
@@ -27,10 +24,7 @@ import React from 'react'
     
     <div className="flex flex-col gap-6 bg-gray-100 p-8 rounded-xl drop-shadow-xl transition duration-300 hover:shadow-brillante hover:scale-105">
       <p className="text-gray-500">
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
-        quibusdam ducimus libero ad tempora doloribus expedita laborum
-        saepe voluptas perferendis delectus assumenda rerum, 
-        dolorum, obcaecati corrupti aspernatur a..."
+        "Choosing this digital marketing service was a game-changer for my small business. The team's expertise and personalized attention exceeded my expectations. Finally, a marketing solution that gets real results"
       </p>
       <div className="flex items-center gap-4">
         <img
@@ -50,10 +44,7 @@ import React from 'react'
     
     <div className="flex flex-col gap-6 bg-gray-100 p-8 rounded-xl drop-shadow-xl transition duration-300 hover:shadow-brillante hover:scale-105">
       <p className="text-gray-500">
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
-        quibusdam ducimus libero ad tempora doloribus expedita laborum
-        saepe voluptas perferendis delectus assumenda rerum, culpa aperiam
-        dolorum, obcaecati corrupti aspernatur a..."
+        "Couldn't be happier with the impact this digital marketing service had on my online presence. They went above and beyond to understand my goals, resulting in increased engagement and a noticeable uptick in sales. Highly satisfied"
       </p>
       <div className="flex items-center gap-4">
         <img
