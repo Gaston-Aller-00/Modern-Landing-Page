@@ -8,4 +8,4 @@ Use in the app
 -Figma for images
 
 
-Link: 
+Link: https://landing-page-moderna.netlify.app
