@@ -15,7 +15,8 @@ const Works = () => {
       {/* trabajos */}
       <div className="grid grid-flow-cols-1 md:grid-cols-2 gap-8 ">
         <div className="flex flex-col gap-2">
-          <img src="work1.png" className="w-full rounded-3xl" />
+        <img src="work1.png" className="w-full rounded-3xl overflow-hidden transition duration-300 hover:shadow-brillante hover:scale-105" />
+
           <p className="text-gray-500"> App desing -June 20 , 2022</p>
           <h3 className="text-2xl font-bold">App Redesing</h3>
           <p className="text-gray-500">
@@ -26,22 +27,22 @@ const Works = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div>
-            <img src="work2.png" className="w-full h-56 object-cover rounded-3xl p-4" />
+            <img src="work2.png" className="w-full h-56 object-cover rounded-3xl p-4 transition duration-300 hover:shadow-brillante hover:scale-105" />
             <p className="text-gray-500"> App desing -June 22 , 2023</p>
             <h3 className="text-2xl font-bold">Redesing channel website landing page</h3>
           </div>
           <div>
-            <img src="work3.png" className="w-full h-56 object-cover rounded-3xl  p-4" />
+            <img src="work3.png" className="w-full h-56 object-cover rounded-3xl  p-4 transition duration-300 hover:shadow-brillante hover:scale-105" />
             <p className="text-gray-500"> App desing -June 26 , 2023</p>
             <h3 className="text-2xl font-bold">New locator App for a New Company</h3>
           </div>
           <div>
-            <img src="work4.png" className="w-full h-56 object-cover rounded-3xl p-4" />
+            <img src="work4.png" className="w-full h-56 object-cover rounded-3xl p-4 transition duration-300 hover:shadow-brillante hover:scale-105" />
             <p className="text-gray-500"> App desing -June 22 , 2022</p>
             <h3 className="text-2xl font-bold">Rental Rooms web app platform</h3>
           </div>
           <div>
-            <img src="work5.png" className="w-full h-56 object-cover rounded-3xl p-4" />
+            <img src="work5.png" className="w-full h-56 object-cover rounded-3xl p-4 transition duration-300 hover:shadow-brillante hover:scale-105" />
             <p className="text-gray-500"> App desing -June 22 , 2022</p>
             <h3 className="text-2xl font-bold">Calendar app for Big SASS Company</h3>
           </div>
