@@ -16,10 +16,11 @@ const Hero = () => {
   return (
     <section className="min-h-[90vh] grid grid-cols-1 xl:grid-cols-8">
       {/* informacion */}
+      {/* vinculacion netlify sucess  */}
       <div className="md:col-span-5 flex items-center justify-center p-8 xl:p-16">
         <div className="flex flex-col gap-8">
           <h1 className="text-5xl xl:text-7xl font-bold xl:leading-[7.5rem]">
-            Webbb Desing impactful Digital{" "}
+            Web Desing impactful Digital{" "}
             {/* las bolitas del rectangulo de products x4 */}
             <span className="text-primary py-2 px-6 border-8 border-primary relative inline-block">
               Products
