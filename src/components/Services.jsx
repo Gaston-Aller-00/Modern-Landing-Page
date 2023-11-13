@@ -35,28 +35,28 @@ const Services = () => {
 
           <h3 className="text-[20px] font-bold">UI/UX Desing</h3>
           <p className="text-gray-500">
-            Sometime sfeatures require a short description{" "}
+          Boost efficiency with our virtual assistants handling tasks, emails, and schedules.
           </p>
         </div>
         <div className="flex flex-col gap-2">
           <RiMacFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl transition duration-300 hover:shadow-violet-hover hover:scale-105" />
           <h3 className="text-[20px] font-bold">Logo branding </h3>
           <p className="text-gray-500">
-            Sometime sfeatures require a short description{" "}
+          Tailored virtual tutoring for students across various subjects.
           </p>
         </div>
         <div className="flex flex-col gap-2">
           <RiMacFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl transition duration-300 hover:shadow-violet-hover hover:scale-105" />
           <h3 className="text-[20px] font-bold">App desing </h3>
           <p className="text-gray-500">
-            Sometime sfeatures require a short description{" "}
+          Creative solutions for logos and branding without an in-house designer.
           </p>
         </div>
         <div className="flex flex-col gap-2">
           <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl transition duration-300 hover:shadow-violet-hover hover:scale-105" />
           <h3 className="text-[20px] font-bold">Website desing</h3>
           <p className="text-gray-500">
-            Sometime sfeatures require a short description{" "}
+          Seamless remote IT support for troubleshooting and updates.
           </p>
         </div>
       </div>
